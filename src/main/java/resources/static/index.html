@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GuestBook</title>
+    <link rel="stylesheet" href="static/css/guestBookStyle.css">
+    <script rel="script" src="static/js/guestBookScript.js" defer></script>
+</head>
+<body>
+    <div class="content">
+        <h1>Simple GuestBook</h1>
+        <div class="entries">
+        </div>
+        <form action="http://localhost:8000/guestbook">
+            <label for="message" id="messageLabel">Message</label>
+            <textarea rows="5" cols="5" id="message"></textarea>
+            <label for="name" id="nameLabel">Name</label>
+            <input type="text" id="name">
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>
